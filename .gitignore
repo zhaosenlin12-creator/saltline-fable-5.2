@@ -1,0 +1,18 @@
+# python
+__pycache__/
+*.py[cod]
+
+# pipeline build artefacts
+build/
+*.mp4
+*.wav
+*.mkv
+
+# but keep the reference film / episode assets that are meant to ship
+!kids-video-production/episodes/**/*.md
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
